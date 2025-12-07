@@ -1,0 +1,27 @@
+/* index.css */
+
+body {
+background-color: #b89bbd;
+display: flex;
+justify-content: center; 
+align-items: center;    
+min-width: 320px;
+min-height: 100vh;
+  margin: 0; 
+}
+
+#root {
+max-width: 1280px;
+padding: 2rem;
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+/* Інші глобальні стилі: */
+a {font-weight: 500;color: #646cff;
+text-decoration: inherit;
+}
+a:hover {
+color: #535bf2;
+}
