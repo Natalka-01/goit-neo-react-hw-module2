@@ -9,12 +9,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
   margin: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 button:hover {
   border-color: #646cff;
 }
-
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -29,7 +28,11 @@ button:hover {
   }
 }
 
-
 ul {
   list-style-type: none;
+}
+
+div {
+  justify-content: center;
+  align-items: center;
 }
